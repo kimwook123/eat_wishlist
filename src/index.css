@@ -1,0 +1,6 @@
+:root { --paper: #f6f3ed; --card: #fbfaf7; --ink: #1f211f; --muted: #77746e; --line: #ded9d0; --orange: #e85e32; --green: #55866e; --body: 'Trebuchet MS', sans-serif; --display: Georgia, 'Times New Roman', serif; font-family: var(--body); color: var(--ink); background: var(--paper); font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, input { font: inherit; }
+button { cursor: pointer; }

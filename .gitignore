@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+coverage
+*.local
+.env
+.env.*
+!.env.example
+server/data/reviews.json
+server/data/reviews.json.tmp
+server/data/hanip.sqlite*
+docx_render/
+~$*
+__pycache__/
+*.py[cod]
+
+# OS and temporary files
+Thumbs.db
+*.tmp
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
